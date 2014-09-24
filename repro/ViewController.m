@@ -19,7 +19,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     UIWebView* webView = [[UIWebView alloc] initWithFrame:self.view.frame];
     NSURL* base = [NSURL URLWithString:@"http://localhost"];
-    [webView loadHTMLString:@"<html><body><br><br><button onclick='alert(1);'>button" baseURL:base];
+    [webView loadHTMLString:@"<html><body>1<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><button onclick='alert(1);'>button" baseURL:base];
     [self.view addSubview:webView];
 }
 
